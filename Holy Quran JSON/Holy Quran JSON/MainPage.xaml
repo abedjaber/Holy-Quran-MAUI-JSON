@@ -2,14 +2,27 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Holy_Quran_JSON.MainPage">
-        <VerticalStackLayout>
+    <StackLayout Orientation="Vertical">
         <Button Text="Exit" Clicked="Exit"></Button>
-        <ListView x:Name="dataList" HasUnevenRows="True" SelectionMode="None" SeparatorColor="Aquamarine">
+        <ListView x:Name="dataList" SelectionMode="None" SeparatorColor="Aquamarine">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                        <Label Text="{Binding id}" TextColor="Aqua"></Label>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                        <Label x:Name="id" Text="{Binding id}" TextColor="Aqua" HorizontalOptions="End" Padding="20,0,20,0"></Label>
+                            <Label x:Name="name" Text="{Binding name}" TextColor="Aqua" HorizontalOptions="End" Padding="20,0,20,0"></Label>
+                            <Label x:Name="name_en" Text="{Binding name_en}" TextColor="Aqua" HorizontalOptions="End" Padding="20,0,20,0"></Label>
+                            <Label x:Name="name_translation" Text="{Binding name_translation}" TextColor="Aqua" HorizontalOptions="End" Padding="20,0,20,0"></Label>
+                            <Label x:Name="words" Text="{Binding words}" TextColor="Aqua" HorizontalOptions="End" Padding="20,0,20,0"></Label>
+                            <Label x:Name="letters" Text="{Binding letters}" TextColor="Aqua" HorizontalOptions="End" Padding="20,0,20,0"></Label>
+                            <Label x:Name="type" Text="{Binding type}" TextColor="Aqua" HorizontalOptions="End" Padding="20,0,20,0"></Label>
+                            <Label x:Name="type_en" Text="{Binding type_en}" TextColor="Aqua" HorizontalOptions="End" Padding="20,0,20,0"></Label>
+                            <Label x:Name="ar" Text="{Binding ar}" TextColor="Aqua" HorizontalOptions="End" Padding="20,0,20,0"></Label>
+                            <Label x:Name="en" Text="{Binding en}" TextColor="Aqua" HorizontalOptions="End" Padding="20,0,20,0"></Label>
+                        </StackLayout>
+                    </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        </VerticalStackLayout>
+    </StackLayout>
 </ContentPage>

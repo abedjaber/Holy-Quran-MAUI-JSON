@@ -1,5 +1,4 @@
 ﻿using Newtonsoft.Json;
-using System.Diagnostics;
 namespace Holy_Quran_JSON;
 public partial class MainPage : ContentPage
 {
@@ -27,5 +26,7 @@ public partial class MainPage : ContentPage
     }
     private void Exit(object sender, EventArgs e)
     {
+        Application.Current.Quit();
     }
+  
 }
