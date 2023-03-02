@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\Holy-Quran-MAUI-JSON\Holy Quran JSON\Holy Quran JSON\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-02T06:01:18.713</Modified>
+      <Modified>2023-03-02T07:25:45.183</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Holy-Quran-MAUI-JSON\Holy Quran JSON\Holy Quran JSON\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-03-02T06:01:18.506</Modified>
+      <Modified>2023-03-02T07:25:44.970</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Holy-Quran-MAUI-JSON\Holy Quran JSON\Holy Quran JSON\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Holy Quran JSON.runtimeconfig.json">
       <PackagePath>Holy Quran JSON.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Holy-Quran-MAUI-JSON\Holy Quran JSON\Holy Quran JSON\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Holy Quran JSON.dll">
       <PackagePath>Holy Quran JSON.dll</PackagePath>
-      <Modified>2023-03-02T06:01:17.986</Modified>
+      <Modified>2023-03-02T07:25:44.453</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Holy-Quran-MAUI-JSON\Holy Quran JSON\Holy Quran JSON\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Holy Quran JSON.exe</PackagePath>
-      <Modified>2023-03-02T06:01:17.990</Modified>
+      <Modified>2023-03-02T07:25:44.456</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.11\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1067,7 +1067,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Holy-Quran-MAUI-JSON\Holy Quran JSON\Holy Quran JSON\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Holy Quran JSON.deps.json">
       <PackagePath>Holy Quran JSON.deps.json</PackagePath>
-      <Modified>2023-03-02T06:01:18.647</Modified>
+      <Modified>2023-03-02T07:25:45.111</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\.nuget\packages\microsoft.maui.controls.ref.win\6.0.547\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

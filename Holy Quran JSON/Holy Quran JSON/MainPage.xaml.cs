@@ -1,10 +1,9 @@
 ﻿using Newtonsoft.Json;
 using System.Diagnostics;
-
 namespace Holy_Quran_JSON;
 public partial class MainPage : ContentPage
 {
-    List<Root> roots= new List<Root>();
+    List<Root> roots = new List<Root>();
     public MainPage()
     {
         InitializeComponent();
@@ -23,7 +22,10 @@ public partial class MainPage : ContentPage
         txt = reader.ReadToEnd();
         roots = JsonConvert.DeserializeObject<List<Root>>(txt);
         watch.Stop();
+        dataList.ItemsSource = roots;
         int i = 0;
-
+    }
+    private void Exit(object sender, EventArgs e)
+    {
     }
 }

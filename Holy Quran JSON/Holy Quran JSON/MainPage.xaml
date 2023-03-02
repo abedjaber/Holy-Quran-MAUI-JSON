@@ -3,6 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Holy_Quran_JSON.MainPage">
         <VerticalStackLayout>
-            
+        <Button Text="Exit" Clicked="Exit"></Button>
+        <ListView x:Name="dataList" HasUnevenRows="True" SelectionMode="None" SeparatorColor="Aquamarine">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                        <Label Text="{Binding id}" TextColor="Aqua"></Label>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
         </VerticalStackLayout>
 </ContentPage>
