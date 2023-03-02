@@ -1,0 +1,1 @@
+H:\Holy-Quran-MAUI-JSON\Holy Quran JSON\Holy Quran JSON\Holy Quran JSON.csproj;x64
