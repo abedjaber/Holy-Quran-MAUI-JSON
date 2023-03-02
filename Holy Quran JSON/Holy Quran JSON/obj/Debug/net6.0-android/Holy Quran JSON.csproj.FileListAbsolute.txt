@@ -997,3 +997,4 @@ H:\Holy-Quran-MAUI-JSON\Holy Quran JSON\Holy Quran JSON\obj\Debug\net6.0-android
 H:\Holy-Quran-MAUI-JSON\Holy Quran JSON\Holy Quran JSON\obj\Debug\net6.0-android\stamp\_GenerateJavaStubs.stamp
 H:\Holy-Quran-MAUI-JSON\Holy Quran JSON\Holy Quran JSON\obj\Debug\net6.0-android\stamp\_GeneratePackageManagerJava.stamp
 H:\Holy-Quran-MAUI-JSON\Holy Quran JSON\Holy Quran JSON\obj\Debug\net6.0-android\stamp\_ResolveLibraryProjectImports.stamp
+H:\Holy-Quran-MAUI-JSON\Holy Quran JSON\Holy Quran JSON\obj\Debug\net6.0-android\android\assets\Newtonsoft.Json.dll

@@ -253,3 +253,4 @@ H:\Holy-Quran-MAUI-JSON\Holy Quran JSON\Holy Quran JSON\obj\Debug\net6.0-maccata
 H:\Holy-Quran-MAUI-JSON\Holy Quran JSON\Holy Quran JSON\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\Holy Quran JSON.pdb
 H:\Holy-Quran-MAUI-JSON\Holy Quran JSON\Holy Quran JSON\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\Holy Quran JSON.genruntimeconfig.cache
 H:\Holy-Quran-MAUI-JSON\Holy Quran JSON\Holy Quran JSON\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\ref\Holy Quran JSON.dll
+H:\Holy-Quran-MAUI-JSON\Holy Quran JSON\Holy Quran JSON\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Newtonsoft.Json.dll

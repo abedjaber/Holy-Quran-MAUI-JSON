@@ -7,9 +7,12 @@ public partial class MainPage : ContentPage
     public MainPage()
     {
         InitializeComponent();
+        deserialize();
     }
-    public void deserialize()
+    public async void deserialize()
     {
-        
+        using var stream = await FileSystem.OpenAppPackageFileAsync("Quran.json");
+        int i = 0;
+
     }
 }

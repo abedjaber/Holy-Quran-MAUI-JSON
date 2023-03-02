@@ -358,3 +358,4 @@ H:\Holy-Quran-MAUI-JSON\Holy Quran JSON\Holy Quran JSON\obj\Debug\net6.0-windows
 H:\Holy-Quran-MAUI-JSON\Holy Quran JSON\Holy Quran JSON\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 H:\Holy-Quran-MAUI-JSON\Holy Quran JSON\Holy Quran JSON\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 H:\Holy-Quran-MAUI-JSON\Holy Quran JSON\Holy Quran JSON\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+H:\Holy-Quran-MAUI-JSON\Holy Quran JSON\Holy Quran JSON\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
