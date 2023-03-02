@@ -1,0 +1,3 @@
+D:\Holy-Quran-MAUI-JSON\Holy Quran JSON\Holy Quran JSON\bin\Release\net6.0-android\publish\com.companyname.holy_quran_json-Signed.aab
+D:\Holy-Quran-MAUI-JSON\Holy Quran JSON\Holy Quran JSON\bin\Release\net6.0-android\publish\com.companyname.holy_quran_json.aab
+D:\Holy-Quran-MAUI-JSON\Holy Quran JSON\Holy Quran JSON\bin\Release\net6.0-android\publish\com.companyname.holy_quran_json-Signed.apk
