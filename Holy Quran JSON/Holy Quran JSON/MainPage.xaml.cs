@@ -28,5 +28,9 @@ public partial class MainPage : ContentPage
     {
         Application.Current.Quit();
     }
-  
+    private async void dataListItemSelected(object sender, SelectedItemChangedEventArgs e)
+    {
+        int selectIndex = e.SelectedItemIndex;
+        await Navigation.PushModalAsync(new Details(roots, selectIndex+1));
+    }
 }

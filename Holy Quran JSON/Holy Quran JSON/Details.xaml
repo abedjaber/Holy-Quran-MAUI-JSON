@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Holy_Quran_JSON.Details"
+             Title="Details" BackgroundColor="Black">
+    <StackLayout Orientation="Vertical">
+        <Label Text="القرآن الكريم" TextColor="AliceBlue" FontSize="Header" HorizontalTextAlignment="Center" Padding="0,10,0,10"></Label>
+        <ListView x:Name="detailedList" HasUnevenRows="True" SeparatorColor="Aquamarine">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label Text="رقم السورة" TextColor="MediumAquamarine" HorizontalOptions="End" Padding="20,0,20,0"></Label>
+                            <Label x:Name="id" Text="{Binding id}" TextColor="White" HorizontalOptions="End" Padding="20,10,20,10"></Label>
+                            <Label Text="إسم السورة" TextColor="MediumAquamarine" HorizontalOptions="End" Padding="20,0,20,0"></Label>
+                            <Label x:Name="name" Text="{Binding name}" TextColor="White" HorizontalOptions="End" Padding="20,10,20,10"></Label>
+                            <Label Text="اسم السورة باللغة الإنجليزية" TextColor="MediumAquamarine" HorizontalOptions="End" Padding="20,0,20,0"></Label>
+                            <Label x:Name="name_en" Text="{Binding name_en}" TextColor="White" HorizontalOptions="End" Padding="20,10,20,10"></Label>
+                            <Label Text="اسم السورة باللغة الإنجليزية" TextColor="MediumAquamarine" HorizontalOptions="End" Padding="20,0,20,0"></Label>
+                            <Label x:Name="name_translation" Text="{Binding name_translation}" TextColor="White" HorizontalOptions="End" Padding="20,10,20,10"></Label>
+                            <Label Text="عدد كلمات السورة" TextColor="MediumAquamarine" HorizontalOptions="End" Padding="20,0,20,0"></Label>
+                            <Label x:Name="words" Text="{Binding words}" TextColor="White" HorizontalOptions="End" Padding="20,10,20,10"></Label>
+                            <Label Text="عدد أحرف السورة" TextColor="MediumAquamarine" HorizontalOptions="End" Padding="20,0,20,0"></Label>
+                            <Label x:Name="letters" Text="{Binding letters}" TextColor="White" HorizontalOptions="End" Padding="20,10,20,10"></Label>
+                            <Label Text="مكان النزول" TextColor="MediumAquamarine" HorizontalOptions="End" Padding="20,0,20,0"></Label>
+                            <Label x:Name="type" Text="{Binding type}" TextColor="White" HorizontalOptions="End" Padding="20,10,20,10"></Label>
+                            <Label Text="مكان النزول باللغة الإنجليزية" TextColor="MediumAquamarine" HorizontalOptions="End" Padding="20,0,20,0"></Label>
+                            <Label x:Name="type_en" Text="{Binding type_en}" TextColor="White" HorizontalOptions="End" Padding="20,10,20,10"></Label>
+                            <Label Text="بــســم الــلــه الــرحــمــن الــرحــيــم" TextColor="MediumAquamarine" HorizontalOptions="Center" Padding="20,0,20,0"></Label>
+                            <Label x:Name="ar" Text="{Binding ar}" TextColor="White" HorizontalOptions="Start" Padding="20,10,20,10"></Label>
+                            <Label Text="ترجمة السورة باللغة الإنجليزية" TextColor="MediumAquamarine" HorizontalOptions="End" Padding="20,0,20,0"></Label>
+                            <Label x:Name="en" Text="{Binding en}" TextColor="White" HorizontalOptions="End" Padding="20,10,20,10"></Label>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button x:Name="back" Text="Back" Clicked="BackClicked"></Button>
+    </StackLayout>
+        
+</ContentPage>
